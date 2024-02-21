@@ -135,8 +135,7 @@ type=rpm-md
 - Still get error how to fix?
 4. Install virtualenv -> sudo -H pip3 install virtualenv
 5. Create a virtual environment -> python3 -m venv myenv
-6. Activate the virtual environment
-   source myenv/bin/activate
+6. Activate the virtual environment -> source myenv/bin/activate
 7. pip3 install elasticsearch
 8. Finish, dont forget for leave virtualenv -> deactivate
 ----------
