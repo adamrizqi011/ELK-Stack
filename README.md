@@ -1,3 +1,5 @@
+##### Copyright Adam Rizqi 2024
+
 # ELK-Centos8
 Install ELK Stack(Elastic Search, Kibana and Logstash) use SSL Lets Encrypt, full screenshot about ELK go to website.
 
@@ -133,12 +135,10 @@ type=rpm-md
 - Still get error how to fix?
 4. Install virtualenv -> sudo -H pip3 install virtualenv
 5. Create a virtual environment -> python3 -m venv myenv
-6. pip3 install elasticsearch
-7. Finish, dont forget for leave virtualenv -> deactivate
-  
-# Activate the virtual environment
-source myenv/bin/activate
-
+6. Activate the virtual environment
+   source myenv/bin/activate
+7. pip3 install elasticsearch
+8. Finish, dont forget for leave virtualenv -> deactivate
 ----------
 ## If have problem SSL and Token
 1. chown -R yourusername:yourusername / example: chown -R kibana:kibana ./ -> for all folder
