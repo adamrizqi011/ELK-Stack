@@ -67,6 +67,7 @@ type=rpm-md
 5. sudo journalctl -u logstash -f / sudo tail -n 100 /var/log/logstash/logstash-plain.log
 6. sudo -u logstash /usr/share/logstash/bin/logstash --path.settings /etc/logstash -t
 
+
 # Kibana Install & Configuration
 1. sudo yum -y install kibana
 2. sudo vi /etc/kibana/kibana.yml -> file tertera di kibana.yml tidak termasuk token password
