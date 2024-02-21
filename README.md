@@ -99,7 +99,7 @@ type=rpm-md
 8. File sudah jadi akan ada di /etc/letsencrypt/archive -> copy elk.adamrizqi.my.id & kibana.adamrizqi.my.id kedalam -> /etc/kibana/certs & /etc/elasticsearch/certs
    atau bisa cek file diatas.
 
-#Configuration Security Password
+# Configuration Security Password
 1. cd /usr/share/elasticsearch/bin
 2. ./elasticsearch-service-tokens create elastic/kibana kibana_token -> AAEAAWVsYXN0aWMva2liYW5hL2tpYmFuYV90b2tlbjpRVkhQOF9zWVFjYXItYVYyVkR2X3h3
 3. vi token -> save token
@@ -119,7 +119,7 @@ type=rpm-md
 # Tidak terpakai
 # SSL Self Signed
 - cd /usr/share/elasticsearch/bin
-1. #Elastic SSL Self Signed
+1. # Elastic SSL Self Signed
 
 - ./elasticsearch-certutil ca --pem --out /etc/elasticsearch/certs/ca.zip
 
